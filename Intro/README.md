@@ -1,4 +1,5 @@
 # Abogabot
+**Requerimientos**
 
 Es un despacho de abogados que quiere automatizar las demandas de sus clientes Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción. Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
 El administrador del sitio recbe la notificación de una nueva demanda y con los datos llenados del formulario se crea automaticamente el documento legal en formato word para empezar el proceso.
@@ -10,10 +11,13 @@ La preferencia de colores del cliente es azul marino y blanco, pero acepta propu
 
 **Practicas**
 
-Toma de requerimientos
-    - [ Aquí la toma de requerimientos](./Requerimientos.doc)
+-Toma de requerimientos
+    [ Aquí la toma de requerimientos](./Requerimientos.doc)
 
-Crea tu buyer persona
+-Buyer persona
+    [Aquí buyer persona](./Buyer%20Persona%20.pdf)
+    
 Publico objetivo
+    [Aquí publico objetivo](./Images/Publico%20Objetivo.png)
 Crea tu primer Wireframe UX
 Ahora el UI
