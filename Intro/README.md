@@ -11,7 +11,7 @@ La preferencia de colores del cliente es azul marino y blanco, pero acepta propu
 **Practicas**
 
 Toma de requerimientos
-    - [ Aquí la toma de requerimientos](/intro/Requerimientos.doc)
+    - [ Aquí la toma de requerimientos](./Requerimientos.doc)
 
 Crea tu buyer persona
 Publico objetivo
