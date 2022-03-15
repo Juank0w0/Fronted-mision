@@ -2,7 +2,7 @@
 
 Clonar la página
 Creacion de campaña publicitaria
-<a href="/Planes%20marketing.pdf">Campaña Publicitaria <a>
+<a href="./Planes%20marketing.pdf">Campaña Publicitaria <a>
 
 Creacion de pagina a travez de html
 y diseño con CSS<br>
