@@ -9,4 +9,8 @@
     - Tipo de pokemón
     - Estadísticas
     - Movimientos
-Despliegue del [pokedex]() 
+   
+Despliegue del [pokedex](https://juan-c.000webhostapp.com/) 
+
+
+<img src="./image/captura01.png" alt="SDLC" height="600px">
