@@ -1,0 +1,102 @@
+*{
+    color: rgb(255, 255, 255);
+    background: rgb(214, 17, 17);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+#poke{
+    color: rgb(243, 241, 241);
+    font-size: large;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding-left: 50px;
+    padding-top: 20px;
+
+    max-width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+    background-color: rgb(255, 7, 7);
+   
+}
+.grancontenido {
+    /*display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 400px 16px;*/
+    position: relative;
+    height: fit-content;
+    max-width: 360px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.datapoke {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 350px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+
+.datapoke::before {
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.estadis div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+form {
+    width: 250px;
+    margin: 20px auto;
+    background: rgb(255, 84, 84);
+    border-radius: 50px;
+}
+
+::placeholder{
+    color: white;
+    
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1.3px 6px 27px #6e0505;
+    
+}
+#buscar{
+    color: #FFFFFF;
+    background-color: #6e0505;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 1.3px 6px 27px #f81616;
+}
+
+
+div{
+    background-color: rgb(170, 18, 18);
+}

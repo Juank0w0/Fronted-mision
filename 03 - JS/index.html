@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/Pokeball-icon.png" type="image/x-icon">
+    <title>Pokedex Juan k</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="Pokejuan.js" type="text/javascript" defer></script>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+    <h1 id="poke">Pokedex</h1><br>
+    </header>
+
+    <form action="" onsubmit="buscarpokemon(event)" >
+        <input type="text" placeholder="Nombre del pokemon" autocomplete="off" id="PokeName" name="PokeName"><br>
+    </form> 
+    <div class="grancontenido">
+        <div datos-pokedex class="datapoke">
+            <div  class ="poki" pokename>
+                Pokemones <br>
+            </div>
+            <div pokeimg class="pokeimagen">
+                <img imagenpokemon class="imagenpokemon" src="./image/pikachupokemon.png" alt="Pikachu" id="pokeImage" width="150px"><br>
+            </div>
+            <div pokeid></div>
+            <div poketipo class="poketipo"></div>
+            <div estadistica class="estadis">Estadisticas</div>
+            <div>
+                <button id="buscar" onclick="buscarpokemon()">Buscar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
